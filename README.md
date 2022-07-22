@@ -81,7 +81,7 @@ Merkle Tree和Hash List的主要区别是，可以直接下载并立即验证Mer
 
     对于project中要求1：构造具有10w叶节点的Merkle Tree，
     
-    我们可以用爬虫任意在网站上爬取100k数据；调用上面实现完成的Tree_Generate()函数即可！
+    我们可以用任意的爬虫程序（crawler_ex.py）在网站上爬取100k的数据；调用上面实现完成的Tree_Generate()函数即可！
     
     对于project中要求2，3：可以对指定元素构建包含关系的证明，可以对指定元素构建不包含关系的证明
     

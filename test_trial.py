@@ -1,5 +1,5 @@
 #下面我们开始对Merkel Tree进行测试
-
+#随意为输入数据赋值
 DATA = ["123","456","789","135","246"]
 Tree_1 = Tree_Generate(DATA)
 print("生成了一个有DATA数集构成的MerkleTree：")
@@ -28,4 +28,4 @@ print("验证证明正确性的依据：：")
 
 print(Verify(TestMessages[n],Evidence,Tree_2[-1][0]))
 
-#对project中的实现要求，测试完成。
+#完成project中的实现要求，测试完成。
